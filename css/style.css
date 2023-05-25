@@ -13,11 +13,10 @@ body {
 .titulo {
     text-transform: uppercase;
     color: white;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-.titulo{
+    font-weight: 900;
+    font-size: 1.2rem;
     text-decoration: none;
+    margin: 0;
 }
 .titulo a:hover{
     text-decoration: none;
@@ -32,9 +31,6 @@ header> .container-fluid{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    padding-top: 1%;
-}
 .sand{
     display: flex;
     gap: 1rem;
@@ -43,6 +39,7 @@ header> .container-fluid{
 .nav{
     border-right: solid white 1px;
     padding-right: 1rem; 
+    margin-bottom: 2px;
 }
 .pais{
     background-color: green;
@@ -50,6 +47,7 @@ header> .container-fluid{
     width: 25px;
     border-radius: 50%;
     padding: 0 5px;
+    margin-top: 3px;
 }
 main > .container-fluid{
     height: 600px;
@@ -60,17 +58,17 @@ main > .container-fluid{
 }
 .hero{
     color: white;
-    padding: 40% 0 10%;
+    padding: 50% 0 10%;
     box-sizing: border-box;
     height: 25rem;
 }
-@media (min-width: 995px){
+@media (min-width: 800px){
     .hero{
         padding: 400px 0 80px;
     }
 }
 .hero-text > p {
-    font-size: medium;
+    font-size: 15px;
 }
 .cta-filtro{
     height: 23px;
@@ -85,6 +83,10 @@ main > .container-fluid{
     background-color: transparent;
     color: white;
     border-radius: 30px;
+}
+.cta-b:hover{
+    background-color: #cd7325;
+    border: 1px solid #cd7325;
 }
 .cta > .container-lg{
     background-color: white;
@@ -103,13 +105,8 @@ main > .container-fluid{
     flex-direction: column;
     height: 51px;
     border-radius: 10px;
-    line-height: 7px;
     vertical-align: middle;
-}
-@media (min-width: 768px){
-    .col-md{
-        line-height: 10px;
-    }
+    font-weight: 550;
 }
 .busca-b{
     width: 100%;
@@ -118,17 +115,82 @@ main > .container-fluid{
     background-color: #468000;
     border: 0 transparent;
     font-size: 15px;
+    border-radius: 10px;
 }
-.busca-titulo{
-    font-weight: 550;
-    font-size: 15px;
-    margin: 10px 0;
+.banner {
+    height: 15%;
+    width: 100%;
+    background-color: white;
 }
-.busca > p{
-    font-size: 10px;
+@media (min-width: 768px){
+    .col-md{
+        line-height: 10px;
+    }
+}
+@media (min-width: 900px){
+    form {
+        display: flex;
+    }
+    .banner {
+        height: 2%;
+    }
+}
+article{
+    margin-top: 48px;
+    height: 570px;
+    background-color: yellow;
+}
+article > p{
+    color:#cd7325;
+    margin-bottom: 3px;
+}
+article > h4{
+    font-weight: 500;
+}
+article{
+    padding: 50px 0;
 }
 .hoteis{
+    width: 90%;
+    height: 350px;
+    background-color: black;
+    margin: 32px 0;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+.card{
+    width: 18rem;
+}
+.card-body > p , .card-body > h5{
+    margin: 4px 0;
+}
+.card-body>h5{
+    font-size: 20px;
+    font-weight: 650;
+}
+.card-body > p{
+    font-size: 11px;
+}
+.preco{
+    font-size: 20px
+}
+.card-body > .btn {
+    width: 250px;
+}
+.destinos{
+    height: 400px;
     width: 100%;
-    height: 600px;
-    background-color: yellow;
+    display: flex;
+    background-color: crimson;
+    align-items: center;
+}
+.destinos > .container-sm p{
+    font-size: 15px;
+}
+.teste{
+    width: 100%;
+    height: 2000px;
 }
