@@ -1,0 +1,134 @@
+body {
+    margin: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: white;
+    position: relative;
+    display: grid;
+}
+.titulo-modifier {
+    color: #468000;
+}
+.titulo {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.titulo{
+    text-decoration: none;
+}
+.titulo a:hover{
+    text-decoration: none;
+}
+.menu{
+    filter: invert(98%) sepia(2%) saturate(731%) hue-rotate(220deg) brightness(121%) contrast(100%);
+}
+header> .container-fluid{
+    display: flex;
+    position: absolute;
+    height: 46px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 1%;
+}
+.sand{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nav{
+    border-right: solid white 1px;
+    padding-right: 1rem; 
+}
+.pais{
+    background-color: green;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+main > .container-fluid{
+    height: 600px;
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    gap: 0;
+}
+.hero{
+    color: white;
+    padding: 40% 0 10%;
+    box-sizing: border-box;
+    height: 25rem;
+}
+@media (min-width: 995px){
+    .hero{
+        padding: 400px 0 80px;
+    }
+}
+.hero-text > p {
+    font-size: medium;
+}
+.cta-filtro{
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 32px 0;
+}
+.cta-b{
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+}
+.cta > .container-lg{
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, .2);
+}
+.col-md {
+    background-color: white;
+    padding: 2px;
+    box-sizing: border-box;
+    font-size: small;
+    margin: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 51px;
+    border-radius: 10px;
+    line-height: 7px;
+    vertical-align: middle;
+}
+@media (min-width: 768px){
+    .col-md{
+        line-height: 10px;
+    }
+}
+.busca-b{
+    width: 100%;
+    height: 51px;
+    color: white;
+    background-color: #468000;
+    border: 0 transparent;
+    font-size: 15px;
+}
+.busca-titulo{
+    font-weight: 550;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.busca > p{
+    font-size: 10px;
+}
+.hoteis{
+    width: 100%;
+    height: 600px;
+    background-color: yellow;
+}
