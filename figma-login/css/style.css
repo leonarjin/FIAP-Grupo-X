@@ -22,12 +22,8 @@ body{
 .titulo a:hover{
     text-decoration: none;
 }
-.menu{
-    filter: invert(98%) sepia(2%) saturate(731%) hue-rotate(220deg) brightness(121%) contrast(100%);
-}
-header> .container-fluid{
+.barra{
     display: flex;
-    
     height: 46px;
     align-items: center;
     justify-content: space-between;
@@ -44,12 +40,33 @@ header> .container-fluid{
     border-right: solid #7D7D7D 1px;
     padding-right: 1rem; 
 }
-.container{
-    padding-top: 17%;
-    padding-bottom: 50%;
-    font-size: 1px;
-    color: #1d1d1d;
-}
 .btn{
     background-color: #559A00;
 }
+.login {
+    /* background-color: blue; */
+    height: 420px;
+    padding: 20% 0;
+    display: grid;
+}
+.botoes{
+    display: flex;
+    width: 100%;
+   justify-content: space-around;
+}
+.botao{
+    font-family: 'Poppins', sans-serif;
+    width: 155px;
+    height: 44px;
+    border: solid 2px #559A00;
+    border-radius: 10px;
+}
+.botao-a{
+    background-color: #559A00;
+    color: white;
+}
+.botao-b{
+    background-color: white;
+    color:#559A00;
+}
+
