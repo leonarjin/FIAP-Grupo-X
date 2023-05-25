@@ -140,7 +140,6 @@ main > .container-fluid{
 article{
     margin-top: 48px;
     height: 570px;
-    background-color: yellow;
 }
 article > p{
     color:#cd7325;
@@ -193,9 +192,9 @@ article{
     background-size: cover;
     align-items: center;
 }
-.destinos > .container{
-    display: flex;
-    justify-content: center;
+.destinos > .container-sm{
+    color: white;
+    text-shadow: -1px 00 0 #7d7d7d, 1px 0 0 #7d7d7d, -1px 0 0 #7d7d7d, 1px 0 0 #7d7d7d;
 }
 .call-b {
 	width: 400px;
