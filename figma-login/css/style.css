@@ -11,11 +11,10 @@ body{
     color: #559A00;
 }
 .titulo {
-    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    color: #1d1d1d;
-    font-weight: 630;
-    font-size: 1.4rem;
+    color: black;
+    font-weight: 650;
+    font-size: 1.5rem;
 }
 .titulo{
     text-decoration: none;
@@ -40,9 +39,6 @@ body{
 .nav{
     border-right: solid #7D7D7D 1px;
     padding-right: 1rem; 
-}
-.menu{
-    color: #7D7D7D;
 }
 .btn{
     background-color: #559A00;
@@ -72,40 +68,5 @@ body{
 .botao-b{
     background-color: white;
     color:#559A00;
-    font-weight: 600;
-    border: solid 1px #559A00;
 }
-.linha{
-    border: 0;
-    height: 1px;
-    background: #7D7D7D;
-    width: 100%;
-    max-width: 750px;
-    margin: 20px 0 50px;
-    display: flex;
-}
-.button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .button-container button {
-    font-family: 'Poppins', sans-serif;
-    width: 90%;
-    height: 44px;
-    border: solid 1px #7D7D7D;
-    border-radius: 10px;
-    color: #7D7D7D;
-    font-size: 20px;
-    background: transparent;
-  }
-.details{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding-top: 13px;
-    color: black;
-}
-.details span{
-    color: orange;
-}
+
