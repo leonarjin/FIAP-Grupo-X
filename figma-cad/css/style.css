@@ -54,13 +54,13 @@ body{
     display: grid;
 }
 .botoes{
-    display: flex;
-    width: 100%;
-   justify-content: space-around;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .botao{
     font-family: 'Poppins', sans-serif;
-    width: 155px;
+    width: 100%;
     height: 44px;
     border: solid 2px #559A00;
     border-radius: 10px;
@@ -69,12 +69,7 @@ body{
     background-color: #559A00;
     color: white;
 }
-.botao-b{
-    background-color: white;
-    color:#559A00;
-    font-weight: 600;
-    border: solid 1px #559A00;
-}
+
 .linha{
     border: 0;
     height: 1px;
@@ -106,6 +101,11 @@ body{
     padding-top: 13px;
     color: black;
 }
-.details span{
+.checkbox span{
     color: orange;
+}
+.checkbox{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    text-align: center;
 }
